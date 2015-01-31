@@ -1,0 +1,16 @@
+{
+  "name": "darrenonthe.net",
+  "description": ":-)",
+  "author": "Darren Taylor <shout@darrenonthe.net>",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.11.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "jade": "^1.9.1"
+  },
+  "engine": "node >= 0.10.1"
+}
