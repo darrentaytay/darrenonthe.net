@@ -1,0 +1,21 @@
+{
+  "name": "darrenonthe.net",
+  "version": "1",
+  "description": "CV website for Darren Taylor / darrenonthe.net",
+  "authors": [
+    "Darren Taylor"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/dtisgodsson/darrenonthe.net/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3"
+  }
+}
