@@ -1,6 +1,6 @@
 # darrenonthe.net v1
 
-Source code used for the current 
+Source code used for V1 of my online CV/Résumé over at http://darrenonthe.net.
 
 ## Tech used:
 
