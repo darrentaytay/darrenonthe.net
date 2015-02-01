@@ -34,13 +34,19 @@ Install the projects dependencies as defined in package.json by running:
 sudo npm install
 ```
 
-Next, install grunt-cli and bower globally:
+Install grunt-cli and bower globally:
 
 ```
 sudo npm install -g grunt-cli bower
 ```
 
-Next, build the CSS, Javascript and copy all other required assets via Grunt:
+Install bower dependencies:
+
+```
+bower install
+```
+
+Build the CSS, Javascript and copy all other required assets via Grunt:
 
 ```
 grunt build
