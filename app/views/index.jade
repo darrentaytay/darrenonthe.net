@@ -6,6 +6,7 @@ head
     title Darren Taylor
     link(rel='stylesheet', href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
     link(href='static/lib/materialize/css/materialize.css', type='text/css', rel='stylesheet', media='screen,projection')
+    link(href='static/lib/animate.css/css/animate.css', type='text/css', rel='stylesheet', media='screen,projection')
     link(href='static/css/styles.css', type='text/css', rel='stylesheet', media='screen,projection')
     link(href='http://fonts.googleapis.com/css?family=Fira+Sans:300,400', rel='stylesheet', type='text/css')
   body
@@ -13,11 +14,11 @@ head
       .container
         .header
           .row
-            .col.s12.l8
+            .col.s12.l8.animated.fadeInDown
               img(src='static/img/darrentaylor.jpg')
               h1 Darren Taylor
               p Tea Driven Development
-            .col.s12.l4.contact
+            .col.s12.l4.contact.animated.fadeInDown
               ul.social.clearfix
                 li.github.tooltipped(data-tooltip='View my Github profile', data-position='top')
                   a(href='https://github.com/dtisgodsson', target='_blank')
@@ -45,7 +46,9 @@ head
                 p
                   strong Skype: 
                   | darren_teed
-        section.sellyourself
+        
+        //- BEGIN HIGHLIGHT SECTION
+        section.sellyourself.animated.fadeInUp
           .row
             .col.s4
               .highlight
@@ -69,8 +72,10 @@ head
                 h3 More than a button basher
                 p
                   | Experience in project planning and project management using Agile Scrum methodologies and love devising ways to increase productivity and efficiency in development teams.
-                
-        section.profile
+        //- END HIGHLIGHT SECTION
+               
+        //- BEGIN PROFILE SECTION 
+        section.profile.animated.fadeInUp
           .row
             .col.s3
               h2 Profile
@@ -88,11 +93,17 @@ head
                 | in 2009 with a degree in 
                 strong Computer Science, 
                 | I have worked exclusively in startup companies helping plan, 
-                | develop and maintain complex web applications along with supporting server side platforms.
+                | develop and maintain complex, 
+                strong API-centric
+                |, web applications along with supporting server side platforms and RESTful API's.
               p.
-                Despite spending the majority of my professional experience in amongst thousands of lines of server side code, I also enjoy meddling with Javascript frameworks such as Backbone to create dynamic user experiences and love an excuse to make something slide in or fade out. I'd also dive at the opportunity to try and test new technologies, server or client side.
+                Despite spending the majority of my professional experience in amongst thousands of lines of server side code, I also enjoy meddling with 
+                Javascript frameworks such as Backbone to create dynamic user experiences and love an excuse to make something slide in or fade out. I'd also dive at the opportunity to try and test new technologies, server or client side.
               p.
                 I have had the pleasure of working with some incredibly clever people on some fascinating projects from which I&apos;ve gained invaluable knowledge and experience. Through continued learning, I constantly strive to better myself and in turn, the work I produce. I enjoy learning from others and also passing on my own knowledge which I&apos;ve gained throughout an enjoyable career thus far and hope to continue in the same vein going forward.
+        //- END PROFILE SECTION
+                
+        //- BEGIN SKILLS SECTION
         section.skills
           .row
             .col.s3
@@ -128,12 +139,49 @@ head
                     li.collection-item Vagrant
                     li.collection-item.tooltipped(data-tooltip='Sphinx, ElasticSearch, Solar', data-position='left')
                       span Open Source Search Engines
+        //- END SKILLS SECTION
+        
+        //- BEGIN PORTFOLIO SECTION
+        section.portfolio
+          .row
+            .col.s3
+              h2 Portfolio
+            .col.s9
+              .row
+                .col.s4
+                  .portfolio-item
+                    h4 BeeFound
+                    p.summary Platform to help Locums find Practices and Practices find Locums.
+                .col.s4
+                  .portfolio-item
+                    h4 OpenEar
+                    p.summary HTML5/Javascript Online music streaming platform with offline capabilities.
+                .col.s4
+                  .portfolio-item
+                    h4 Yeti
+                    p.summary Fitness platform encouraging people to walk more using gamification and challenging friends.
+              .row
+                .col.s4
+                  .portfolio-item
+                    h4 Mi Rewards
+                    p.summary Localized loyalty programs for town shoppers featuring Point of Sale Integration.
+                .col.s4
+                  .portfolio-item
+                    h4 fiveasi.de
+                    p.summary Service for arranging games of football with other players.
+                .col.s4
+                  .portfolio-item
+                    h4 AccaShare
+                    p.summary Bet sharing platform for Football Accumulators.
+        //- END PORTFOLIO SECTION
+                      
+        //- BEGIN EMPLOYMENT SECTION
         section.employment
           .row
             .col.s3
               h2 Work 
                 br  
-                History
+                | History
             .col.s9
               article
                 h3 Senior Developer / Development Manager
@@ -177,4 +225,58 @@ head
                   | My day to day responsibilities were developing new and maintaining existing Websites for a huge client base across the world.
                   | From simple brochure websites, to e-commerce solutions and bespoke content management systems; I met and worked with clients directly to understand their business requirements
                   | and translate that into a functional website.
+        //- END EMPLOYMENT SECTION
+        
+        //- BEGIN EDUCATION SECTION
+        section.education
+          .row
+            .col.s3
+              h2 Education
+            .col.s9
+              article
+                h3 Degree in Computer Science / Applied Computing
+                p
+                  span
+                    i.fa.fa-map-marker
+                    | University of Dundee
+                  span
+                    i.fa.fa-calendar-o
+                    | 2007 - 2009
+              article
+                h3 Java Online: introduction to Object Oriented Progrmaming
+                p
+                  span
+                    i.fa.fa-map-marker
+                    | University of Dundee
+                  span
+                    i.fa.fa-calendar-o
+                    | 2006 - 2007
+              article
+                h3 HND (Higher National Diploma) Software Development
+                p
+                  span
+                    i.fa.fa-map-marker
+                    | Dundee College
+                  span
+                    i.fa.fa-calendar-o
+                    | 2006 - 2007
+              article
+                h3 HNC (Higher National Certificate) Computing
+                p
+                  span
+                    i.fa.fa-map-marker
+                    | Dundee College
+                  span
+                    i.fa.fa-calendar-o
+                    | 2005 - 2006
+              article
+                h3 NQ (National Qualification) Information Systems
+                p
+                  span
+                    i.fa.fa-map-marker
+                    | University of Dundee
+                  span
+                    i.fa.fa-calendar-o
+                    | 2004 - 2005
+        //- END EDUCATION SECTION
     script(src='static/js/frontend.js')

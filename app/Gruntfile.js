@@ -24,7 +24,8 @@ module.exports = function(grunt) {
                     compress: true
                 },
                 files: {
-                    "./static/css/styles.css": "./assets/css/styles.less"
+                    "./static/css/styles.css": "./assets/css/styles.less",
+                    "./static/lib/animate.css/css/animate.css": "./bower_components/animate.css/animate.min.css"
                 }
             }
 
