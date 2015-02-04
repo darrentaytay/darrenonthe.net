@@ -2,7 +2,6 @@
   "name": "darrenonthe.net",
   "description": ":-)",
   "author": "Darren Taylor <shout@darrenonthe.net>",
-  "dependencies": {},
   "devDependencies": {
     "express": "^4.11.1",
     "grunt": "^0.4.5",
