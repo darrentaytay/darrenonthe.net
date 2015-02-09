@@ -2,6 +2,8 @@
 
 Source code used for V1 of my online CV/Résumé over at http://darrenonthe.net.
 
+![Screenshot of darrenonthe.net](http://darrenonthe.net/static/img/darrenonthenet.png)
+
 ## Tech used:
 
 * Express (node.js)
