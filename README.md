@@ -10,6 +10,7 @@ Source code used for V1 of my online CV/Résumé over at http://darrenonthe.net.
 * Jade
 * Grunt
 * LESS
+* Materialize (http://materializecss.com/)
 
 ## Development
 

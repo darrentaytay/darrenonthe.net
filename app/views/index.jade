@@ -44,7 +44,7 @@ head
                   strong Skype: 
                   | darren_teed
         
-        section.strapline.animated.bounceInDown
+        section.strapline.animated.bounceInDown.hide-on-med-and-down
           .row
             .col.s12
               h2 Hiya, my name is 
@@ -63,7 +63,7 @@ head
         
         
         //- BEGIN HIGHLIGHT SECTION
-        section.sellyourself.animated.fadeInUp
+        section.sellyourself.animated.fadeInUp.hide-on-med-and-down
           .row
             .col.s4
               .highlight
@@ -92,9 +92,9 @@ head
         //- BEGIN PROFILE SECTION 
         section.profile.animated.fadeInUp
           .row
-            .col.s3
+            .col.l3.s12
               h2 Profile
-            .col.s9
+            .col.l9.s12
               p
                 | Hailing from Dundee but now living in Kirkcaldy, Fife, I&apos;m primarily a 
                 strong PHP Developer 
@@ -121,11 +121,11 @@ head
         //- BEGIN SKILLS SECTION
         section.skills
           .row
-            .col.s3
+            .col.s12.l3
               h2 Skills
-            .col.s9
+            .col.s12.l9
               .row
-                .col.s4
+                .col.s12.l4
                   ul.collection
                     li.collection-item Apache
                     li.collection-item PHP
@@ -135,7 +135,7 @@ head
                     li.collection-item.tooltipped(data-tooltip='including jQuery', data-position='left')
                       span Coffee/Javascript
                     li.collection-item CSS / SASS / LESS
-                .col.s4
+                .col.s12.l4
                   ul.collection
                     li.collection-item Ruby on Rails
                     li.collection-item.tooltipped(data-tooltip='Backbone.js and Angular.js', data-position='left')
@@ -144,7 +144,7 @@ head
                     li.collection-item MongoDB
                     li.collection-item Node.js
                     li.collection-item Express
-                .col.s4
+                .col.s12.l4
                   ul.collection
                     li.collection-item Unit Testing
                     li.collection-itemli.collection-item.tooltipped(data-tooltip='Git, Subversion', data-position='left') 
@@ -159,23 +159,23 @@ head
         //- BEGIN PORTFOLIO SECTION
         section.portfolio
           .row
-            .col.s3
+            .col.l3.s12
               h2 Portfolio
-            .col.s9
+            .col.l9.s12
               .row
-                .col.s4
+                .col.s12.l4
                   .portfolio-item
                     a(href='http://beefound.co.uk', target='_blank')
                       img.responsive-img(src='static/img/projects/beefound.jpg')
                     h4 BeeFound
                     p.summary Platform to help Locums find Practices and Practices find Locums which features automated booking phone calls with real time feedback.
-                .col.s4
+                .col.s12.l4
                   .portfolio-item
                     a(href='http://www.openearmusic.com/business/', target='_blank')
                       img.responsive-img(src='static/img/projects/openear.jpg')
                     h4 OpenEar
                     p.summary HTML5/Javascript Online music streaming platform with offline capabilities.
-                .col.s4
+                .col.s12.l4
                   .portfolio-item
                     a(href='http://www.mi-rewards.co.uk', target='_blank')
                       img.responsive-img(src='static/img/projects/mirewards.jpg')
@@ -186,11 +186,9 @@ head
         //- BEGIN EMPLOYMENT SECTION
         section.employment
           .row
-            .col.s3
-              h2 Work 
-                br  
-                | History
-            .col.s9
+            .col.s12.l3
+              h2 Work History
+            .col.s12.l9
               article
                 h3 Senior Developer / Development Manager
                 p
@@ -238,9 +236,9 @@ head
         //- BEGIN EDUCATION SECTION
         section.education
           .row
-            .col.s3
+            .col.l3.s12
               h2 Education
-            .col.s9
+            .col.l9.s12
               article
                 h3 Degree in Computer Science / Applied Computing
                 p
