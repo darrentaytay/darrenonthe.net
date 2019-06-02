@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 
-h1 {
+body {
   font-family: 'Titillium Web', sans-serif;
 }
 
@@ -8,9 +8,15 @@ nav.shift ul li a {
   position:relative;
   z-index: 1;
 }
-nav.shift ul li.active, nav.shift ul li a:hover {
+nav.shift ul li a.active, nav.shift ul li a:hover {
   color: #FFF;
 }
+
+nav.shift ul li a.active {
+  background: #000000;
+  border-radius: 3px;
+}
+
 nav.shift ul li a:after {
   display: block;
   position: absolute;
@@ -30,7 +36,7 @@ nav.shift ul li a:after {
   border-radius: 3px;
 }
 
-nav.shift ul li.active a:after, nav.shift ul li a:hover:after {
+nav.shift ul li a.active a:after, nav.shift ul li a:hover:after {
   opacity: 1;
   visibility: visible;
   height: 100%;
